@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Dashboard from '@/pages/dashboard/Content';
-import PythonPrintToTable from '@/pages/python-print-to-table/Content';
+import Dashboard from './pages/dashboard/Content';
+import PythonPrintToTable from './pages/python-print-to-table/Content';
 
 function App() {
   return (

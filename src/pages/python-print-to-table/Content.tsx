@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PageTitle from '@/components/pageTitle';
+import PageTitle from '../../components/pageTitle';
 
 function PythonPrintToTable() {
   const [inputData, setInputData] = React.useState('2024-01-01 100 A B C\n2024-01-02 150 D E F\n2024-01-03 125 G H I');
