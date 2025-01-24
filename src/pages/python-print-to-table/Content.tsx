@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PageTitle from '../../components/helpers/pageTitle';
+import PageTitle from '@/components/pageTitle';
 
 function PythonPrintToTable() {
   const [inputData, setInputData] = React.useState('2024-01-01 100 A B C\n2024-01-02 150 D E F\n2024-01-03 125 G H I');
@@ -37,7 +37,7 @@ function PythonPrintToTable() {
 
   return (
     <>
-      <PageTitle title='Python Print to Table' />
+      <PageTitle title='Python Print to Table | Work Utility' />
       <div className='container mx-auto p-8 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 min-h-screen'>
         <a
           href='/'

@@ -1,4 +1,4 @@
-import PageTitle from '../../components/helpers/pageTitle';
+import PageTitle from '@/components/pageTitle';
 
 function Dashboard() {
   const pages = [
@@ -12,7 +12,7 @@ function Dashboard() {
 
   return (
     <>
-      <PageTitle title='Dashboard' />
+      <PageTitle title='Dashboard | Work Utility' />
       <div className='container mx-auto p-8 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 min-h-screen'>
         <h1 className='text-5xl font-extrabold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 drop-shadow-sm'>
           Dashboard
